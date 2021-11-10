@@ -25,13 +25,13 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     }
   ],
@@ -40,7 +40,10 @@
       "Publish",
       "Pdf"
     ],
-    "master": ["Publish", "Pdf"]
+    "main": [
+      "Publish",
+      "Pdf"
+    ]
   },
   "need_generate_pdf_url_template": true,
   "targets": {
